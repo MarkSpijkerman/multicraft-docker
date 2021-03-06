@@ -34,7 +34,7 @@ EXPOSE 25565
 EXPOSE 19132-19133/udp
 EXPOSE 25565/udp
 EXPOSE 6000-6005
-VOLUME [/multicraft]
+VOLUME /multicraft
 ENV daemonpwd=none
 ENV daemonid=1
 ENV dbengine=sqlite
